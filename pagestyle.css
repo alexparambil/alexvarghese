@@ -1,0 +1,81 @@
+nav {
+	background-color: #061d2b;
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+    padding: 30px;
+
+}
+
+nav a {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+  	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #767676;
+}
+/* Style for body specifies a background color */
+body {
+	background-color: #061d2b;
+	font-family: "Lato", sans-serif;
+	font-size: 1.0em;
+	
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center aligns content */
+header {
+	font-family: "Lato", sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	margin-top: 1.2em;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+nav {
+	font-family: "Lato", sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: .25em;
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	
+}
+
+.image-box {
+    width: 100%; /* Set the width of the box */
+    height:50%; /* Set the height of the box */
+    padding: 10px; /* Add padding inside the box */
+    background-color: #f0f0f0; /* Set a background color for the box */
+}
+
+.image-box img {
+    max-width: 100%; /* Ensure the image fits within the box */
+    max-height: 100%; /* Ensure the image fits within the box */
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+	background-color: #ffffff;
+}
+
+.center-text {
+    text-align: center;
+}
